@@ -1,0 +1,82 @@
+/* https://google-webfonts-helper.herokuapp.com/fonts/ephesis?subsets=latin */
+/* ephesis-regular - latin */
+@font-face {
+  font-family: 'Ephesis';
+  font-style: normal;
+  font-weight: 400;
+  src: url('resources/fonts/Ephesis/ephesis-v1-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('resources/fonts/Ephesis/ephesis-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('resources/fonts/Ephesis/ephesis-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('resources/fonts/Ephesis/ephesis-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('resources/fonts/Ephesis/ephesis-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('resources/fonts/Ephesis/ephesis-v1-latin-regular.svg#Ephesis') format('svg'); /* Legacy iOS */
+}
+
+/* https://google-webfonts-helper.herokuapp.com/fonts/cormorant-garamond?subsets=latin */
+/* cormorant-garamond-regular - latin */
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('resources/fonts/CormorantGaramond/cormorant-garamond-v10-latin-regular.svg#CormorantGaramond') format('svg'); /* Legacy iOS */
+}
+
+body {
+	font-family: 'Cormorant Garamond', Serif;
+	background-color: #C51E3A; /* cardinal */
+	color: white;
+	text-align: center; /* necessary to align inline-block */
+}
+
+.date {
+	text-align: right;
+}
+.outer {
+	text-align: left;
+    max-width: 1000px;
+    margin: auto;
+	margin-bottom: 6em
+}
+
+.inner {
+	text-align: justify;
+    max-width: 600px;
+    margin: auto;
+}
+
+.header {
+	font-family: 'Ephesis', Serif;
+	display: inline-block;
+	font-size: 68px;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
+	margin: 0.5em 0 1em 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Ephesis', Serif;
+	font-weight:normal;
+	font-size:50px;
+	margin: 0;
+}
+
+p {
+	font-size: 22px;
+	/*
+    margin-top: 0;
+    margin-bottom: 0;
+	text-indent: 1.5em;
+	*/
+}
