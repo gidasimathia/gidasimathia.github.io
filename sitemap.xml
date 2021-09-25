@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-	  <loc>https://gidas.gr/</loc>
-	  <lastmod>2021-09-24</lastmod>
+		<loc>https://gidas.gr/</loc>
+		<changefreq>daily</changefreq>
+	  	<lastmod>2021-09-24</lastmod>
+		<priority>1</priority>
 	</url>
 </urlset>
