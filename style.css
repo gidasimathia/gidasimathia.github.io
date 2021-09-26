@@ -70,6 +70,8 @@ h1 {
 	font-weight:normal;
 	font-size:50px;
 	margin: 0;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
 }
 
 p {
